@@ -1,0 +1,14 @@
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/bin/Debug/net7.0/ExemploExplorando
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/bin/Debug/net7.0/ExemploExplorando.deps.json
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/bin/Debug/net7.0/ExemploExplorando.runtimeconfig.json
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/bin/Debug/net7.0/ExemploExplorando.dll
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/bin/Debug/net7.0/ExemploExplorando.pdb
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ExemploExplorando.AssemblyInfoInputs.cache
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ExemploExplorando.AssemblyInfo.cs
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ExemploExplorando.csproj.CoreCompileInputs.cache
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ExemploExplorando.dll
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/refint/ExemploExplorando.dll
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ExemploExplorando.pdb
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ExemploExplorando.genruntimeconfig.cache
+/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/obj/Debug/net7.0/ref/ExemploExplorando.dll
