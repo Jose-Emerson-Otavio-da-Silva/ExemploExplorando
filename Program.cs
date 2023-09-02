@@ -3,13 +3,8 @@ using Microsoft.Win32.SafeHandles;
 
 
 
-Pessoa p1 = new();
-p1.Nome = "Emerson";
-p1.Sobrenome = "Silva";
-
-Pessoa p2 = new();
-p2.Nome = "Eduardo";
-p2.Sobrenome = "Neves";
+Pessoa p1 = new(nome: "Emerson", sobrenome: "Silva");
+Pessoa p2 = new(nome: "Eduardo", sobrenome: "Neves");
 
 
 Curso cursoDeIngles = new Curso();
