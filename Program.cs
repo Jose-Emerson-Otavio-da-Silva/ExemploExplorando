@@ -1,7 +1,163 @@
 ﻿using ExemploExplorando.Models;
 using Microsoft.Win32.SafeHandles;
 
-new ExemploExcecao().Metdodo1();
+
+LeituraArquivo arquivo = new LeituraArquivo();
+
+var (sucesso, linhasArquivos, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoleitura.txt");
+
+if (sucesso)
+{
+    Console.WriteLine("Quantidade linhas do arquivo:" + quantidadeLinhas);
+    foreach (string linha in linhasArquivos)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possivel ler o arquivo");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (int, string, string) tupla = (1, "Emerson", "Silva");
+
+// Console.WriteLine(tupla.Item1);
+
+
+
+
+
+
+
+
+
+
+
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+
+// estados.Add("SP", "Sao Paulo");
+// estados.Add("BA", " Bahia");
+// estados.Add("MG", "Minas Gerais");
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// estados.Remove("BA");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Stack<int> pilha = new Stack<int>();
+
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+
+// pilha.Push(20);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(2);
+// fila.Enqueue(4);
+// fila.Enqueue(6);
+// fila.Enqueue(8);
+
+// foreach (int item in fila)
+// {
+//     Console.WriteLine(item);
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//new ExemploExcecao().Metdodo1();
 
 
 
