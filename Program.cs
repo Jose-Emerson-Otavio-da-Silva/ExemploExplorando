@@ -1,13 +1,27 @@
 ﻿using ExemploExplorando.Models;
-using Microsoft.Win32.SafeHandles;
 
 
-int numero = 15;
-bool ehPar = false;
+Venda v1 = new Venda(1, "Material de escritorio", 25.00M);
 
-//IF Ternario
-ehPar = numero % 2 == 0;
-Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 15;
+// bool ehPar = false;
+
+// //IF Ternario
+// ehPar = numero % 2 == 0;
+// Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
 
 
 
