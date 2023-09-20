@@ -7,7 +7,7 @@ List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArqu
 
 foreach (Venda venda in listaVenda)
 {
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}," +
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
     $"Preço: {venda.Preco}, Data: {venda.DataVenda}; ");
 }
 
