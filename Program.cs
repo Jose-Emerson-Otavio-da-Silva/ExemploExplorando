@@ -2,22 +2,71 @@
 using Microsoft.Win32.SafeHandles;
 
 
-LeituraArquivo arquivo = new LeituraArquivo();
+int numero = 15;
+bool ehPar = false;
 
-var (sucesso, linhasArquivos, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoleitura.txt");
+//IF Ternario
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
 
-if (sucesso)
-{
-    Console.WriteLine("Quantidade linhas do arquivo:" + quantidadeLinhas);
-    foreach (string linha in linhasArquivos)
-    {
-        Console.WriteLine(linha);
-    }
-}
-else
-{
-    Console.WriteLine("Não foi possivel ler o arquivo");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa();
+// p1.Nome = "José";
+// p1.Sobrenome = "Emerson";
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivos, _) = arquivo.LerArquivo("Arquivos/arquivoleitura.txt");
+
+// if (sucesso)
+// {
+//     //Console.WriteLine("Quantidade linhas do arquivo:" + quantidadeLinhas);
+//     foreach (string linha in linhasArquivos)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Não foi possivel ler o arquivo");
+// }
 
 
 
