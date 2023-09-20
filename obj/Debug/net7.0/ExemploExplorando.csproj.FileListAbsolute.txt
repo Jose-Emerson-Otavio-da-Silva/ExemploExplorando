@@ -26,3 +26,6 @@ c:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\obj
 c:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
 c:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
 c:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
+C:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CopyComplete
