@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "c:\\Users\\emerson.sap09\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emerson.sap09\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "c:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectName": "ExemploExplorando",
+        "projectPath": "c:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
+        "packagesPath": "C:\\Users\\Emerson\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Emerson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 81b6eb4be12f3801e0e4d7afbdc0f506f3ceb662
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +56,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

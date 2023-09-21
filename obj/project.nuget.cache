@@ -1,8 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kBPzBIZQ0JEP/WLqXcJNbUCg8NmztFmiA8V6W0HV8Rey9FvEsOFvSH7ZIS9+0OEImqxv1TSlCBwUafrnXqOfxw==",
   "success": true,
   "projectFilePath": "c:\\Users\\emerson.sap09\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "bCW5/zqILmpPgz5cmMgtLcxnrxo+t/rQkVhhFa5IfQmocUV5sH5gWVRm3DOgkQLbuHaZ1p7GqoVnHzAdKqKYEA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emerson\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+>>>>>>> 81b6eb4be12f3801e0e4d7afbdc0f506f3ceb662
   "logs": []
 }
