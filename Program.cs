@@ -3,16 +3,14 @@ using Newtonsoft.Json;
 
 
 
-bool? desejaReceberEmail = true;
+int numero = 20;
+bool par = false;
 
-if (desejaReceberEmail.HasValue && desejaReceberEmail.Value){
-    Console.WriteLine("Usuário optou por receber email.");
-}
-else{
-    Console.WriteLine("Usuário optou por não receber email");
-}
+// IF Ternário
+par = numero.EhPar();
 
-
+string mensagem = "O número " + numero + " " + "é " + (par ? "par" : "impar");
+Console.WriteLine(mensagem);
 
 
 
@@ -29,16 +27,143 @@ else{
 
 
 
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
+// arrayInteiro.AdcionarElementoArray(30);
 
-/*string conteudoArquivo = File.ReadAllText("Arquivos/Vendas.json");
+// Console.WriteLine(arrayInteiro[0]);
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-foreach (Venda venda in listaVenda)
-{
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
-    $"Preço: {venda.Preco}, Data: {venda.DataVenda}; ");
-}*/
+// MeuArray<string> arrayString = new MeuArray<string>();
+// arrayString.AdcionarElementoArray("Teste");
+
+// Console.WriteLine(arrayString[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+// dynamic variavelDinamica = 4;
+
+// Console.WriteLine($"Tipo de variavel: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica = "Texto";
+// Console.WriteLine($"Tipo de variavel: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica = true;
+// Console.WriteLine($"Tipo de variavel: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/Vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+// foreach (var venda in listaAnonimo)
+// {
+//     Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+// }
+
+
+
+
+
+
+
+
+
+
+// var tipoAnonimo = new { Nome = "José", Sobrenome = "Emerson", Altura = 1.80 };
+
+// Console.WriteLine($"Nome: {tipoAnonimo.Nome}");
+// Console.WriteLine($"Sobrenome: {tipoAnonimo.Sobrenome}");
+// Console.WriteLine($"Altura: {tipoAnonimo.Altura}");
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/Vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// foreach (Venda venda in listaVenda)
+// {
+//     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, "
+//         + $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy")}"
+//         + $"{(venda.Desconto.HasValue ? $", Desconto de: {venda.Desconto}" : "")}");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bool? desejaReceberEmail = true;
+
+// if (desejaReceberEmail.HasValue && desejaReceberEmail.Value){
+//     Console.WriteLine("Usuário optou por receber email.");
+// }
+// else{
+//     Console.WriteLine("Usuário optou por não receber email");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ezgM1MHm19getDhC3WWRTXxWKFFYqjfTs8Kq9eJqPAOrWwPJB2cV5btKvY8LNSz8jFMWsMSJ0ueWnV4leYmmcA==",
+  "dgSpecHash": "DXLyQcU/5BKE1nGLSsNBNv1wIVwDQJE6cJjz1Eb3ofmHXTRHKB5tLhcTIZEjGtusjSb/j0d++FRxFNj759luzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emerson.sap09\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
+  "projectFilePath": "/Users/emerson/Cursos/FormacaoDotNetDeveloper/ExemploExplorando/ExemploExplorando.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\emerson.sap09\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/Users/emerson/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
