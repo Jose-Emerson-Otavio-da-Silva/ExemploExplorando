@@ -1,7 +1,36 @@
 ﻿using ExemploExplorando.Models;
 using Newtonsoft.Json;
 
-string conteudoArquivo = File.ReadAllText("Arquivos/Vendas.json");
+
+
+bool? desejaReceberEmail = true;
+
+if (desejaReceberEmail.HasValue && desejaReceberEmail.Value){
+    Console.WriteLine("Usuário optou por receber email.");
+}
+else{
+    Console.WriteLine("Usuário optou por não receber email");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*string conteudoArquivo = File.ReadAllText("Arquivos/Vendas.json");
 
 List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
@@ -9,7 +38,7 @@ foreach (Venda venda in listaVenda)
 {
     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
     $"Preço: {venda.Preco}, Data: {venda.DataVenda}; ");
-}
+}*/
 
 
 

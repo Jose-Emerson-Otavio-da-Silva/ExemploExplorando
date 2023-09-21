@@ -8,8 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExemploExplorando
-<<<<<<< HEAD
-build_property.ProjectDir = c:\Users\emerson.sap09\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\
-=======
-build_property.ProjectDir = c:\Users\Emerson\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\
->>>>>>> 81b6eb4be12f3801e0e4d7afbdc0f506f3ceb662
+build_property.ProjectDir = C:\Users\emerson.sap09\source\repos\Jose-Emerson-Otavio-da-Silva\ExemploExplorando\

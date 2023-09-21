@@ -55,16 +55,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\emerson.sap09\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Emerson\\.nuget\\packages\\": {}
->>>>>>> 81b6eb4be12f3801e0e4d7afbdc0f506f3ceb662
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "c:\\Users\\emerson.sap09\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
       "projectPath": "c:\\Users\\emerson.sap09\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
@@ -73,16 +68,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emerson.sap09\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
-      "projectName": "ExemploExplorando",
-      "projectPath": "C:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\ExemploExplorando.csproj",
-      "packagesPath": "C:\\Users\\Emerson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emerson\\source\\repos\\Jose-Emerson-Otavio-da-Silva\\ExemploExplorando\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Emerson\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 81b6eb4be12f3801e0e4d7afbdc0f506f3ceb662
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
